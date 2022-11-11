@@ -24,11 +24,11 @@
                 <div class="col-span-7 text-left">
                     <div class="grid grid-cols-5">
                         <div class="col-span-3 grid grid-cols-5 p-1.5 font-semibold">
-                            <div class="text-lg"><span>Home</span></div>
-                            <div class="text-lg"><span>About Us</span></div>
-                            <div class="text-lg"><span>Portfolio</span></div>
-                            <div class="text-lg"><span>Blog</span></div>
-                            <div class="text-lg"><span>Contact Us</span></div>
+                            <div class="text-lg"><a href="#hero"><span>Home</span></a></div>
+                            <div class="text-lg"><a href="#aboutUs"><span>About Us</span></a></div>
+                            <div class="text-lg"><a href="#portfolio"><span>Portfolio</span></a></div>
+                            <div class="text-lg"><a href="#blog"><span>Blog</span></a></div>
+                            <div class="text-lg"><a href="#contactUs"><span>Contact Us</span></a></div>
                         </div>
                         <div class="grid grid-cols-2">
 
@@ -44,7 +44,7 @@
 
                     <div class="col-span-2">
                         <button class="rounded text-red-500 shadow-lg p-1.5 bg-gray-100 text-lg font-semibold">
-                            <span>Contact Us</span>
+                            <a href="#contactUs"><span>Contact Us</span></a>
                             <img class="inline-block w-4" src="resources/images/arrow-forward.svg" alt=""></button>
                     </div>
 
@@ -222,7 +222,8 @@
                             <div class="p-4 rounded-lg shadow-lg py-9 bg-red-500 text-white">
                                 <p class="font-semibold text-lg">New Adventure</p>
                                 <p class="italic py-3">17 March 2019</p>
-                                <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+                                <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor
+                                    accumsan tincidunt.</p>
                                 <img class="ml-64 w-12" src="resources/images/arrow-narrow-right-black.svg" alt="">
                             </div>
                         </div>
@@ -230,7 +231,8 @@
                             <div class="p-4 rounded-lg shadow-lg py-9">
                                 <p class="font-semibold text-lg">New Adventure</p>
                                 <p class="italic py-3">17 March 2019</p>
-                                <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+                                <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor
+                                    accumsan tincidunt.</p>
                                 <img class="ml-64 w-12" src="resources/images/arrow-narrow-right-black.svg" alt="">
                             </div>
                         </div>
@@ -238,12 +240,13 @@
                             <div class="p-4 rounded-lg shadow-lg py-9">
                                 <p class="font-semibold text-lg">New Adventure</p>
                                 <p class="italic py-3">17 March 2019</p>
-                                <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+                                <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor
+                                    accumsan tincidunt.</p>
                                 <img class="ml-64 w-12" src="resources/images/arrow-narrow-right-black.svg" alt="">
                             </div>
                         </div>
 
-                        
+
                     </div>
                 </div>
 
@@ -253,7 +256,7 @@
 
         </section>
 
-        <section id="contact-us" class="mt-36">
+        <section id="contactUs" class="mt-36">
             <div class="grid grid-cols-10">
                 <div class="col-start-2 col-span-8 p-1.5 font-semibold text">
                     <div class="grid grid-cols-3">
@@ -272,25 +275,34 @@
 
             <div class="grid grid-cols-10 mt-5">
                 <div class="col-start-2 col-span-8 p-1.5 font-semibold text">
-                  <form action="#" method="post">
-                    <div class="grid grid-cols-2 px-2">
-                        <div class="mx-4">
-                            <input class="border p-4 w-full bg-gray-100 rounded-lg  focus:outline-none my-6 placeholder:text-indigo-900" type="email" name="email" id="email" placeholder="Enter Your Email">
-                        </div>
+                    <form action="#" method="post">
+                        <div class="grid grid-cols-2 px-2">
+                            <div class="mx-4">
+                                <input
+                                    class="border p-4 w-full bg-gray-100 rounded-lg  focus:outline-none my-6 placeholder:text-indigo-900"
+                                    type="email" name="email" id="email" placeholder="Enter Your Email">
+                            </div>
 
-                        <div class="mx-4">
-                            <input class="border p-4 w-full bg-gray-100 rounded-lg  focus:outline-none my-6 placeholder:text-indigo-900" type="text" name="sub" id="sub" placeholder="Subject">
-                        </div>
+                            <div class="mx-4">
+                                <input
+                                    class="border p-4 w-full bg-gray-100 rounded-lg  focus:outline-none my-6 placeholder:text-indigo-900"
+                                    type="text" name="sub" id="sub" placeholder="Subject">
+                            </div>
 
-                        <div class="col-span-2 text-center mx-4">
-                                <textarea class="border p-4 w-full bg-gray-100 rounded-lg  focus:outline-none my-4 placeholder:text-indigo-900" name="Message" id="message" cols="10" placeholder="Message Here..." rows="5"></textarea>
-                        </div>
+                            <div class="col-span-2 text-center mx-4">
+                                <textarea
+                                    class="border p-4 w-full bg-gray-100 rounded-lg  focus:outline-none my-4 placeholder:text-indigo-900"
+                                    name="Message" id="message" cols="10" placeholder="Message Here..."
+                                    rows="5"></textarea>
+                            </div>
 
-                        <div class="col-span-2 mt-2">
-                            <button class=" content-center mx-auto block bg-red-500 text-white px-3 py-2 rounded-full" type="submit">Send Message</button>
+                            <div class="col-span-2 mt-2">
+                                <button
+                                    class=" content-center mx-auto block bg-red-500 text-white px-3 py-2 rounded-full"
+                                    type="submit">Send Message</button>
+                            </div>
                         </div>
-                    </div>
-                  </form>  
+                    </form>
                 </div>
             </div>
 
@@ -298,47 +310,62 @@
         </section>
     </main>
     <footer class="grid grid-cols-12 mt-20 bg-blue-900 text-white py-14">
-        <div class="col-span-12"><p class="text-center font-semibold">DOOB</p></div>
-        <div class="col-span-12"><p class="text-center font-semibold text-4xl text-red-500 my-3">Creativity Above</p></div>
+        <div class="col-span-12">
+            <p class="text-center font-semibold">DOOB</p>
+        </div>
+        <div class="col-span-12">
+            <p class="text-center font-semibold text-4xl text-red-500 my-3">Creativity Above</p>
+        </div>
         <div class="col-start-5 text-center col-span-4 grid grid-cols-5">
-            <div><a href="#">Home.</a></div>
-            <div><a href="#">About Us.</a></div>
-            <div><a href="#">Portfolio.</a></div>
-            <div><a href="#">Blog.</a></div>
-            <div><a href="#">Contact Us</a></div>
+            <div><a href="#hero"><span>Home</span></a></div>
+            <div><a href="#aboutUs"><span>About Us</span></a></div>
+            <div><a href="#portfolio"><span>Portfolio</span></a></div>
+            <div><a href="#blog"><span>Blog</span></a></div>
+            <div><a href="#contactUs"><span>Contact Us</span></a></div>
         </div>
 
 
 
-<div>
+        <div>
 
-</div>
+        </div>
 
 
-        <div class="col-span-12 my-5"><p class="text-center text-base">&copy; 2022. Habib | Doob, All Rights Reserved</p></div>
+        <div class="col-span-12 my-5">
+            <p class="text-center text-base">&copy; 2022. Habib | Doob, All Rights Reserved</p>
+        </div>
 
 
 
         <div class="col-start-6 col-span-2 text-center grid grid-cols-3 mx-5">
 
-            <div><a href="#"><svg width="40" height="40" fill="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M17 3.498a.5.5 0 0 0-.5-.5H14a4.77 4.77 0 0 0-5 4.5v2.7H6.5a.5.5 0 0 0-.5.5v2.6a.5.5 0 0 0 .5.5H9v6.7a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-6.7h2.62a.5.5 0 0 0 .49-.37l.72-2.6a.5.5 0 0 0-.48-.63H13v-2.7a1 1 0 0 1 1-.9h2.5a.5.5 0 0 0 .5-.5v-2.6Z"></path>
-             </svg></a></div>
+            <div><a href="#"><svg width="40" height="40" fill="#ffffff" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17 3.498a.5.5 0 0 0-.5-.5H14a4.77 4.77 0 0 0-5 4.5v2.7H6.5a.5.5 0 0 0-.5.5v2.6a.5.5 0 0 0 .5.5H9v6.7a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-6.7h2.62a.5.5 0 0 0 .49-.37l.72-2.6a.5.5 0 0 0-.48-.63H13v-2.7a1 1 0 0 1 1-.9h2.5a.5.5 0 0 0 .5-.5v-2.6Z">
+                        </path>
+                    </svg></a></div>
 
-            <div><a href="#"><svg width="40" height="40" fill="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M8.08 19.997a11.072 11.072 0 0 0 11.44-11A8.092 8.092 0 0 0 21 6.157a.44.44 0 0 0-.62-.51 1.88 1.88 0 0 1-2.16-.38 3.89 3.89 0 0 0-5.58-.17 4.13 4.13 0 0 0-1.15 3.9c-3.35.2-5.65-1.39-7.49-3.57a.43.43 0 0 0-.75.24 9.68 9.68 0 0 0 4.6 10.05 6.73 6.73 0 0 1-4.47 2.28.45.45 0 0 0-.14.84 11 11 0 0 0 4.84 1.16"></path>
-             </svg></a></div>
+            <div><a href="#"><svg width="40" height="40" fill="#ffffff" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M8.08 19.997a11.072 11.072 0 0 0 11.44-11A8.092 8.092 0 0 0 21 6.157a.44.44 0 0 0-.62-.51 1.88 1.88 0 0 1-2.16-.38 3.89 3.89 0 0 0-5.58-.17 4.13 4.13 0 0 0-1.15 3.9c-3.35.2-5.65-1.39-7.49-3.57a.43.43 0 0 0-.75.24 9.68 9.68 0 0 0 4.6 10.05 6.73 6.73 0 0 1-4.47 2.28.45.45 0 0 0-.14.84 11 11 0 0 0 4.84 1.16">
+                        </path>
+                    </svg></a></div>
 
-            <div><a href="#"><svg width="40" height="40" fill="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M14.76 11.19a1 1 0 0 0-1 1.09h2.06a.999.999 0 0 0-1.06-1.09Z"></path>
-                <path d="M9.49 12.297H8.26v1.94h1c1 0 1.44-.33 1.44-1 0-.67-.46-.94-1.21-.94Z"></path>
-                <path d="M10.36 10.522c0-.53-.35-.85-.95-.85H8.26v1.74h.85c.89 0 1.25-.32 1.25-.89Z"></path>
-                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20ZM9.7 15.2H7V8.7h2.7c1.17 0 1.94.61 1.94 1.6a1.4 1.4 0 0 1-1.12 1.43A1.52 1.52 0 0 1 12 13.37c0 1.16-1 1.83-2.3 1.83Zm3.55-6h3v.5h-3v-.5ZM17 13.05h-3.3v.14a1.07 1.07 0 0 0 1.09 1.19.9.9 0 0 0 1-.63H17a2 2 0 0 1-2.17 1.55 2.149 2.149 0 0 1-2.36-2.3v-.44a2.11 2.11 0 0 1 2.28-2.25A2.12 2.12 0 0 1 17 12.58v.47Z"></path>
-             </svg></a></div>
-            
+            <div><a href="#"><svg width="40" height="40" fill="#ffffff" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.76 11.19a1 1 0 0 0-1 1.09h2.06a.999.999 0 0 0-1.06-1.09Z"></path>
+                        <path d="M9.49 12.297H8.26v1.94h1c1 0 1.44-.33 1.44-1 0-.67-.46-.94-1.21-.94Z"></path>
+                        <path d="M10.36 10.522c0-.53-.35-.85-.95-.85H8.26v1.74h.85c.89 0 1.25-.32 1.25-.89Z"></path>
+                        <path
+                            d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20ZM9.7 15.2H7V8.7h2.7c1.17 0 1.94.61 1.94 1.6a1.4 1.4 0 0 1-1.12 1.43A1.52 1.52 0 0 1 12 13.37c0 1.16-1 1.83-2.3 1.83Zm3.55-6h3v.5h-3v-.5ZM17 13.05h-3.3v.14a1.07 1.07 0 0 0 1.09 1.19.9.9 0 0 0 1-.63H17a2 2 0 0 1-2.17 1.55 2.149 2.149 0 0 1-2.36-2.3v-.44a2.11 2.11 0 0 1 2.28-2.25A2.12 2.12 0 0 1 17 12.58v.47Z">
+                        </path>
+                    </svg></a></div>
+
         </div>
 
-        
+
     </footer>
 
 
