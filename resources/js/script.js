@@ -1,0 +1,10 @@
+document.getElementById('hamburgerIcon').addEventListener('click',function(){
+    document.getElementById('hamburgerContent').style.display='grid'
+    document.getElementById('hamburgerIcon').style.display='none'
+    document.getElementById('crossHamburgerIcon').style.display='inline-block'
+})
+document.getElementById('crossHamburgerIcon').addEventListener('click',function(){
+    document.getElementById('hamburgerContent').style.display='none'
+    document.getElementById('hamburgerIcon').style.display='inline-block'
+    document.getElementById('crossHamburgerIcon').style.display='none'
+})
